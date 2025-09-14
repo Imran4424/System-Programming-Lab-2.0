@@ -1,0 +1,1 @@
+savedcmd_/home/kali/Documents/SystemProgrammingLab/Lab1/simple.mod := printf '%s\n'   simple.o | awk '!x[$$0]++ { print("/home/kali/Documents/SystemProgrammingLab/Lab1/"$$0) }' > /home/kali/Documents/SystemProgrammingLab/Lab1/simple.mod
