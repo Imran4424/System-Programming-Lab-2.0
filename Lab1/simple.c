@@ -28,8 +28,8 @@ static int __init simple_init(void)
 {
     const struct task_struct *t = &init_task;  // PID 0 swapper/idle
 
-    pr_info("Loading Module\n");
-    pr_info("init_task pid:%d\n", t->pid);
+    printk("Loading Module\n");
+    printk("init_task pid:%d\n", t->pid);
     pr_info("init_task state:%lu\n", task_state_num(t));
     pr_info("init_task flags:%lu\n", t->flags);
     pr_info("init_task runtime priority:%u\n", t->rt_priority);

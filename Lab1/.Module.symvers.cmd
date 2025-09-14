@@ -1,1 +1,1 @@
-savedcmd_/home/kali/Documents/SystemProgrammingLab/Lab1/Module.symvers :=  scripts/mod/modpost -M -m       -o /home/kali/Documents/SystemProgrammingLab/Lab1/Module.symvers -n -T /home/kali/Documents/SystemProgrammingLab/Lab1/modules.order -i Module.symvers -e 
+savedcmd_/home/kali/SystemProgrammingLab/Lab1/Module.symvers :=  scripts/mod/modpost -M -m       -o /home/kali/SystemProgrammingLab/Lab1/Module.symvers -n -T /home/kali/SystemProgrammingLab/Lab1/modules.order -i Module.symvers -e 

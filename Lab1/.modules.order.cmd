@@ -1,1 +1,1 @@
-savedcmd_/home/kali/Documents/SystemProgrammingLab/Lab1/modules.order := {   echo /home/kali/Documents/SystemProgrammingLab/Lab1/simple.o; :; } > /home/kali/Documents/SystemProgrammingLab/Lab1/modules.order
+savedcmd_/home/kali/SystemProgrammingLab/Lab1/modules.order := {   echo /home/kali/SystemProgrammingLab/Lab1/simple.o; :; } > /home/kali/SystemProgrammingLab/Lab1/modules.order

@@ -1,1 +1,1 @@
-/home/kali/Documents/SystemProgrammingLab/Lab1/simple.o
+/home/kali/SystemProgrammingLab/Lab1/simple.o
