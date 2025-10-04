@@ -16,12 +16,12 @@ MODULE_AUTHOR("You");
 /* Return numeric state compatible with newer kernels where t->state is hidden */
 static unsigned long task_state_num(const struct task_struct *t)
 {
-#if LINUX_VERSION_CODE >= KERNEL_VERSION(5,14,0)
-    /* __state exists; direct state is no longer exported */
-    return READ_ONCE(t->__state);
-#else
-    return READ_ONCE(t->state);
-#endif
+    #if LINUX_VERSION_CODE >= KERNEL_VERSION(5,14,0)
+        /* __state exists; direct state is no longer exported */
+        return READ_ONCE(t->__state);
+    #else
+        return READ_ONCE(t->state);
+    #endif
 }
 
 static int __init simple_init(void)
